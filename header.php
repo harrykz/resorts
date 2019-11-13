@@ -19,7 +19,7 @@
    <div class="container">
        <div class="row">
            <div class="col-12 text-center centeringnavbar">
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(52, 58, 64, 0.4);">
             
                     <!-- Navbar button for short screens -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

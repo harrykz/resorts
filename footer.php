@@ -1,5 +1,9 @@
     
-    
+    <a id="button">
+		
+	</a>
+	
+	
     <!-- Footer Section -->
     <div class="footersection">
        <div class="container-fluid">
@@ -96,6 +100,17 @@
             </div>
        </div>
     </div>
+	
+	<!-- Made line -->
+	<div class="backgroundmade">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="madeby"> Copyright &copy; <a href="index.php" class="resorthome">Resorts</a>. All rights Reserved. 2019 </p>
+				</div>
+			</div>
+		</div>
+	</div>
     
     
     

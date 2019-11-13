@@ -344,11 +344,11 @@ body, html{
     align-items: center;
     background-color: #fff;
     border-radius: 50px;
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 0px 0px;
 }
 
 .theirfontsizes{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .socialanchortags{
@@ -393,6 +393,63 @@ body, html{
 
 #in{
     color: #0077B5 !important;
+}
+
+.backgroundmade{
+	background-color: #7f3918;
+}
+
+.madeby{
+	margin: 10px 0px 10px 0px;
+	color: #fff;
+}
+
+.resorthome{
+	color: #022874;
+	text-decoration: none;
+}
+
+.resorthome:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #022874;
+}
+
+#button {
+  display: inline-block;
+  /*background-color: #FF9800;*/
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f0aa";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #000 !important;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  /*background-color: #555;*/
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 
