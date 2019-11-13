@@ -1,0 +1,438 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background: #f3f3f3
+}
+
+/* Navbar Section */
+.navbar{
+    border-radius: 50px;
+}
+
+.centeringnavbar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.nav-item, .nav-link{
+    color: #fff !important;
+}
+
+.nav-item{
+    padding: 10px 10px 0px 10px;
+}
+
+.logopic{ 
+    width: 50px; 
+    position: relative; 
+    top: -10px;
+}
+
+/* Pills Background */
+.pillsback{
+    background-image: url('../img/tts22.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+    height: 100vh;
+}
+
+.pillholder{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.pillsbackheading{
+    font-size: 60px;
+}
+
+.pillsbacktext, .pillsbackheading{
+    color: #fff;
+}
+
+.pillsbacktext{
+    font-size: 20px;
+}
+
+/* Cards Section */
+.extrapad{
+    padding: 0px 25px 0px 25px;
+}
+.carddivholder{
+    padding: 40px 0px 40px 0px;
+}
+
+.cardnow{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.cardnow:hover{
+    box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.5);
+}
+
+.imagecardnowholder{
+    padding: 10px;
+}
+
+.fluidcardnowimgs{
+    height: 200px;
+    width: 100%;
+}
+
+.cardnowheading{
+    color: #022874;
+}
+
+.cardnowtext{
+    padding: 0px 10px 0px 10px;
+}
+
+.ratingcardnowholder{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.pricecardnow, .ratingtext{
+    color: #7f3918;
+}
+
+.ratingstars, .actualprice, .pricecardnow, .ratingtext{
+    margin-bottom: 0px;
+}
+
+.pillsshapedrates{
+    background-color: rgba(52, 58, 64, 0.25)
+}
+
+.minecolors{
+    color: #022874 !important;
+}
+
+.reds{
+    color: #e91123;
+}
+
+.blues{
+    color: #022874;
+}
+
+.morebtnholder{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.fullinforcardnow{
+    color: #022874;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid #022874;
+    background: transparent;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.fullinforcardnow:hover{
+    cursor: pointer;
+    text-decoration: none;
+    /*color: #7f3918;*/
+    color: #fff;
+    background-color: #7f3918; 
+    border: 1px solid #7f3918;
+}
+
+/* Numbers Game */
+.numbersgame{
+    padding: 40px 0px 40px 0px;
+}
+
+.forafterbord:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-right: 1px solid #022874;
+    height: 70%;
+    right: 0px;
+    top: 30px;
+}
+
+.numbercruncher{
+    padding: 15px;
+}
+
+.numbercruncherheading{
+    font-size: 35px;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.count{
+    color: #7f3918;
+    font-family: 'Wallpoet', cursive;
+}
+
+.count, .numberstext{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.numbercruncherheading{
+    color: #022874;
+}
+
+/* Gallery Section Leftside */
+.galleryareasection{
+    padding: 40px 0px 50px 0px;
+    background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(127,57,24,1) 90%, rgba(127,57,24,1) 100%);
+}
+
+#imageOne{
+    background-image: url('../img/Sandton.jpg');
+}
+
+#imageTwo{
+    background-image: url('../img/Belmont_Exterior.jpg');
+}
+
+#imageThree{
+    background-image: url('../img/Charleston_exterior.jpg');
+}
+
+#imageFour{
+    background-image: url('../img/Nelspruit.jpg');
+}
+
+#imageFive{
+    background-image: url('../img/Reed-islands.webp');
+}
+
+#imageSix{
+    background-image: url('../img/Sandals.jpg');
+}
+
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+.galleryimgs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.hotelname{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    width: 32%;
+    height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Galley Section Rightside */
+.biggalleryimg{
+    background-image: url('../img/sand-river.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:100%;
+}
+
+.seegalleryholder{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    transition: 0.7s ease-in-out;
+}
+
+.seegalleryholder:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.seegallerytext{
+    color: #fff;
+    font-size: 40px;
+}
+
+/* Footer Section */
+.footersection{
+    background-color: #022874;
+    padding: 50px 0px 0px 0px
+}
+
+.footersubheading{
+    color: #fff;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    margin-bottom: 25px;
+}
+
+.footertext{
+    color: #fff;
+    text-align: justify;
+}
+
+.navigationlist{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.navigationlistitems{
+    margin: 5px 0px 5px 0px;
+}
+
+.navanchoritems{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.navanchoritems:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #7f3918;
+}
+
+.iconholder{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
+.theirfontsizes{
+    font-size: 30px;
+}
+
+.socialanchortags{
+    color: #fff;
+    text-decoration: none;;
+}
+
+.socialanchortags:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer Final Social Icons */
+#fb{
+    color: #3b5999 !important;
+}
+#tw{
+    color: #55acee !important;
+}
+#gp{
+    color: #dd4b39 !important
+}
+#vi{
+    color: #df2029 !important;
+}
+#yt{
+    color: #cd201f !important;
+}
+
+#pin{
+    color: #bd081c !important;
+}
+
+#inst{
+    color: #e4405f !important;
+}
+
+#snap{
+    color: #FFFC00 !important;
+}
+
+#in{
+    color: #0077B5 !important;
+}
+
+
+@media(min-width: 320px){
+
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 992px){
+    /* Footer Section */
+    .footersection:before{
+        position: relative;
+        display: block;
+        content: "";
+        border-top: 40px solid #022874;
+        width: 100%;
+        top: -54px;
+        left: 0px;
+        transform: skew(0deg, 3deg);
+    }
+    
+    .footersection:after{
+        position: relative;
+        display: block;
+        content: "";
+        border-top: 40px solid #022874;
+        width: 100%;
+        top: -306px;
+        left: 0px;
+        transform: skew(0deg, -3deg);
+    }
+}
+
+@media(min-width: 1200px){
+
+}
