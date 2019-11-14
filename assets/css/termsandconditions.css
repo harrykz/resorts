@@ -1,0 +1,62 @@
+
+/* Terms and Conditions main background */
+.termbackground{
+    background-image: url('../img/terms-and-condistions-900x588.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.topmargforterm{
+    padding: 40px 0px 40px 0px;
+}
+.mainsideheadings{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.mainsideheadings{
+    font-size: 25px;
+}
+
+.subparas{
+    padding-left: 25px;
+    text-align: justify;
+}
+
+.termsparas, .subparas{
+    font-size: 14px;
+}
+
+@media(min-width: 320px){
+    /* Contact Us */
+    .termbackground{
+        height: 30vh;
+    }
+}
+@media(min-width: 576px){
+    /* Contact Us */
+    .termbackground{
+        height: 40vh;
+    }
+}
+@media(min-width: 768px){
+    /* Contact Us */
+    .termbackground{
+        height: 50vh;
+    }
+}
+@media(min-width: 992px){
+    /* Contact Us */
+    .termbackground{
+        height: 100vh;
+    }
+}
+@media(min-width: 1200px){
+
+}

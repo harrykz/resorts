@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/guesthouses.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/termsandconditions.css">
+    <link rel="stylesheet" href="assets/css/privacypolicy.css">
 </head>
 <body>
 
@@ -29,30 +33,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="openings.php">Openings</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Guest Houses</a>
+                                <a class="nav-link" href="guesthouses.php">Guest Houses</a>
                             </li>
                             <li class="nav-item">
                                 <!-- Navbar Logo Area -->
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="index.php">
                                     <img src="assets/img/availability.png" alt="" class="logopic">
                                 </a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Locations
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="deals.php">Deals</a>
                             </li>
                         </ul>
                     </div>

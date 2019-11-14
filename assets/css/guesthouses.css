@@ -1,0 +1,102 @@
+
+/* Carousel Section Setting */
+.bd-example{
+    height: 100vh;
+}
+
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+} 
+
+.myimagefluid{
+    width: 100%;
+    height: auto;
+}
+
+/* Selected Areas Div */
+.backgroundforselectedareas{
+    padding: 50px 0px 50px 0px; 
+}
+
+.rowmargs{
+    margin: 15px 0px 15px 0px;
+}
+
+#one{
+    background-image: url('../img/Belmont_Exterior.jpg');
+}
+
+#two{
+    background-image: url('../img/blaauwheim-5-star-guest.jpg');
+}
+
+#three{
+    background-image: url('../img/Castello-Full-House-Pic-in-evening-from-Garden-600x373.jpg');
+}
+
+#four{
+    background-image: url('../img/Charleston_exterior.jpg');
+}
+
+#five{
+    background-image: url('../img/kwicks-img6.jpg');
+}
+
+#six{
+    background-image: url('../img/Nelspruit.jpg');
+}
+
+#seven{
+    background-image: url('../img/sand-river.jpg');
+}
+
+#eight{
+    background-image: url('../img/Sandals.jpg');
+}
+
+#nine{
+    background-image: url('../img/Sandton.jpg');
+}
+
+#ten{
+    background-image: url('../img/St-James-5-Star-BB-Cape-Town-Luxury-Guest-House-Luxury-stjmhouselowres-10.jpg');
+}
+
+#eleven{
+    background-image: url('../img/tts22.jpg');
+}
+
+#twelve{
+    background-image: url('../img/blaauwheim-5-star-guest.jpg');
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 160px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.slightishback{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.35);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.centeredinfo{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 18px;;
+}

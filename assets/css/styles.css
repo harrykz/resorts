@@ -15,11 +15,22 @@ body, html{
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20px;
-    max-width: 600px;
+    max-width: 650px;
+    z-index: 1; 
 }
 
 .nav-item, .nav-link{
     color: #fff !important;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: #55acee !important;
+}
+
+.dropdown-item:hover{
+    cursor: pointer;
+    color: #55acee !important;
 }
 
 .nav-item{
@@ -317,7 +328,6 @@ body, html{
 
 .navigationlist{
     list-style-type: none;
-    padding: 0px;
     text-align: center;
 }
 
@@ -484,7 +494,7 @@ body, html{
         content: "";
         border-top: 40px solid #022874;
         width: 100%;
-        top: -306px;
+        top: -307px;
         left: 0px;
         transform: skew(0deg, -3deg);
     }

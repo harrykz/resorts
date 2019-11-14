@@ -13,13 +13,14 @@
                     <p class="footertext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, exercitationem. Ratione excepturi perspiciatis quasi consequuntur, explicabo esse? Illo, possimus neque.</p>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3">
-                    <h3 class="footersubheading">Navigate</h3>
-                    <ul class="navigationlist">
-                        <li class="navigationlistitems"><a href="#" class="navanchoritems">Home</a></li>
-                        <li class="navigationlistitems"><a href="#" class="navanchoritems">Guest Houses</a></li>
-                        <li class="navigationlistitems"><a href="#" class="navanchoritems">Locations</a></li>
-                        <li class="navigationlistitems"><a href="#" class="navanchoritems">Deals</a></li>
-                        <li class="navigationlistitems"><a href="#" class="navanchoritems">Contact Us</a></li>
+                    <h3 class="footersubheading text-left">Navigate</h3>
+                    <ul class="navigationlist text-left">
+                        <li class="navigationlistitems"><a href="index.php" class="navanchoritems">Home</a></li>
+                        <li class="navigationlistitems"><a href="guesthouses.php" class="navanchoritems">Guest Houses</a></li>
+                        <li class="navigationlistitems"><a href="contact.php" class="navanchoritems">Contact Us</a></li>
+                        <li class="navigationlistitems"><a href="deals.php" class="navanchoritems">Deals</a></li>
+                        <li class="navigationlistitems"><a href="termsandconditions.php" class="navanchoritems">Terms & Conditions</a></li>
+                        <li class="navigationlistitems"><a href="privacypolicy.php" class="navanchoritems">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3">

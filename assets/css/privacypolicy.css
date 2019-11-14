@@ -1,0 +1,70 @@
+
+/* Privacy Background */
+.privacybackground{
+    background-image: url('../img/paris-padlocks-bridge-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.topmargforprivacy{
+    padding: 40px 0px 40px 0px;
+}
+
+.mainheadingprivacy{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mainsideheadings{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.mainsideheadings{
+    font-size: 25px;
+}
+
+.subparas{
+    padding-left: 25px;
+    text-align: justify;
+}
+
+.termsparas, .subparas{
+    font-size: 14px;
+}
+
+
+@media(min-width: 320px){
+    /* Contact Us */
+    .privacybackground{
+        height: 30vh;
+    }
+}
+@media(min-width: 576px){
+    /* Contact Us */
+    .privacybackground{
+        height: 40vh;
+    }
+}
+@media(min-width: 768px){
+    /* Contact Us */
+    .privacybackground{
+        height: 50vh;
+    }
+}
+@media(min-width: 992px){
+    /* Contact Us */
+    .privacybackground{
+        height: 100vh;
+    }
+}
+@media(min-width: 1200px){
+
+}

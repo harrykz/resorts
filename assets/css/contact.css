@@ -1,0 +1,191 @@
+
+/* Contact Us Background Main */
+.contactbackground{
+    background-image: url('../img/contactus-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contactusmegaheading{
+    background-color: rgba(0,0,0,0.35);
+    padding: 15px;
+    font-size: 40px;
+    color: #000;
+}
+
+.forarrow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    height: 70%;
+    width: 100%;
+}
+
+.chevsize{
+    font-size: 60px;
+    animation-name: animates;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.foruploadingimage{
+    border: 2px dashed black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.picplussize{
+    font-size: 60px;
+}
+
+.uploadpic{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+@keyframes animates{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+
+/* Contact Form */
+.contactformbax{
+    padding: 40px 0px 20px 0px;
+}
+.forshadow{
+    padding: 30px 0px 15px 0px;
+    border-radius: 10px;
+    box-shadow: -30px 0px 35px 0px rgba(0,0,0,0.35);
+}
+
+.provide{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.provide:after{
+    position: relative;
+    display: block;
+    content: "";
+    border-bottom: 1px solid gray;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.specialrowsmarg{
+    margin: 15px 0px 15px 0px;
+}
+
+.specialwidth{
+    width: 100%;
+}
+
+/* Address Section */
+.addressback{
+    padding: 40px 0px 50px 0px;
+}
+
+.centeringaddress{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.addressarea{
+    font-size: 20px;
+}
+
+.forrightshadow{
+    padding: 30px 0px 15px 0px;
+    border-radius: 10px;
+    box-shadow: 30px 0px 35px 0px rgba(0,0,0,0.35);
+}
+
+.centeringthem{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sociallist{
+    list-style-type: none;
+    padding: none;
+}
+
+.sociallistitems{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.sociallistanchoritems{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+#fbs{
+    cursor: pointer;
+    text-decoration: none;
+    color: #3b5999;
+}
+
+#tws{
+    cursor: pointer;
+    text-decoration: none;
+    color: #55acee
+}
+
+#gps{
+    cursor: pointer;
+    text-decoration: none;
+    color: #dd4b39;
+}
+
+@media(min-width: 320px){
+    /* Contact Us */
+    .contactbackground{
+        height: 30vh;
+    }
+}
+@media(min-width: 576px){
+    /* Contact Us */
+    .contactbackground{
+        height: 40vh;
+    }
+}
+@media(min-width: 768px){
+    /* Contact Us */
+    .contactbackground{
+        height: 50vh;
+    }
+}
+@media(min-width: 992px){
+    /* Contact Us */
+    .contactbackground{
+        height: 100vh;
+    }
+}
+@media(min-width: 1200px){
+
+}
